@@ -4,160 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhaThaiNguyHiem - Hiểu biết để bảo vệ sức khỏe sinh sản</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQPQN0GY46"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-NQPQN0GY46');
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background-color: #e74c3c;
-            color: white;
-            padding: 30px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        nav {
-            background-color: #c0392b;
-            padding: 15px 0;
-        }
-        
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-        }
-        
-        nav li {
-            margin: 0 20px;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-        
-        nav a:hover {
-            text-decoration: underline;
-        }
-        
-        .section {
-            background-color: white;
-            margin: 30px 0;
-            padding: 40px;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        h2 {
-            color: #e74c3c;
-            margin-bottom: 20px;
-            font-size: 1.8rem;
-            border-bottom: 2px solid #f1f1f1;
-            padding-bottom: 10px;
-        }
-        
-        h3 {
-            color: #c0392b;
-            margin: 25px 0 15px;
-        }
-        
-        p {
-            margin-bottom: 15px;
-        }
-        
-        ul, ol {
-            margin-left: 30px;
-            margin-bottom: 20px;
-        }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        .warning-box {
-            background-color: #fff4f4;
-            border-left: 5px solid #e74c3c;
-            padding: 20px;
-            margin: 25px 0;
-        }
-        
-        .statistic {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin: 30px 0;
-        }
-        
-        .stat-card {
-            flex: 1;
-            min-width: 250px;
-            background-color: #f1f1f1;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 2.5rem;
-            color: #e74c3c;
-            font-weight: bold;
-        }
-        
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 50px;
-        }
-        
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            nav li {
-                margin: 5px 0;
-            }
-            
-            .section {
-                padding: 25px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -167,34 +15,35 @@
         </div>
     </header>
     
-    <nav>
+    <nav class="navbar">
         <div class="container">
-            <ul>
-                <li><a href="#nguy-hiem">Xu thế</a></li>
-                <li><a href="#tam-ly">Hậu quả</a></li>
-                <li><a href="#phap-ly">Giải pháp</a></li>
-                <li><a href="#giai-phap">Bài học</a></li>
+            <ul class="navbar-list">
+                <li class="active"><a href="#xu-the">Xu thế</a></li>
+                <li class="active"><a href="#hau-qua">Hậu quả</a></li>
+                <li class="active"><a href="#giai-phap">Giải pháp</a></li>
+                <li class="active"><a href="#bai-hoc">Bài học</a></li>
             </ul>
         </div>
     </nav>
-    
+    <img src="image/1.webp">
     <main class="container">
-        <section id="nguy-hiem" class="section">
+        <section id="xu-the" class="section">
             <h2>Xu thế trẻ hóa tuổi quan hệ tình dục là một thực trạng đang diễn ra tại Việt Nam đặc biệt ở các thành phố lớn.</h2>
-            
-            <div class="warning-box">
-                <p>
+            <ul>
+                <li>
                     Cuộc sống phát triển, chế độ dinh dưỡng không hợp lý kết hợp với việc được tiếp xúc với mạng xã hội từ sớm khiến trẻ có xu hướng dậy thì sớm cả về thể chất và tâm sinh lý. Điều này tạo ra những sự tò mò về giới tính và tình dục. Nhưng một thực tế đáng buồn khi ở trẻ vị thành niên ở nước ta vẫn chưa có đầy đủ nhận thức về giới tính. Ngoài ra, bước sang tuổi dậy thì, trẻ thường có tâm lý phải thể hiện sự trưởng thành, và việc yêu đương, quan hệ tình dục chính là một cách thể hiện.
-                <p>   
-                <p>
+                </li>   
+                <li>
                     Độ tuổi dậy thì trung bình của trẻ em Việt Nam hiện nay từ 10 đến 11 tuổi, nhiều trường hợp có thể dậy thì sớm hơn. Từ 12 đến 16 tuổi, trẻ bắt đầu có nhu cầu tìm hiểu, quan tâm đến cơ thể, và có thể phát sinh quan hệ tình dục.    
-                <p>
-            </div>
-            
+                </li>
+            </ul>
+        <div class="warning-box">
+            <p>Theo Tổ chức Y tế Thế giới (WHO), mỗi năm có khoảng 25 triệu ca phá thai không an toàn trên toàn cầu, dẫn đến khoảng 39.000 ca tử vong.</p>
+        </div>
             <div class="statistic">
                 <div class="stat-card">
-                    <div class="stat-number">300.000</div>
-                    <p>ca nạo phá thai mỗi năm</p>
+                    <div class="stat-number">25 triệu</div>
+                    <p>ca phá thai không an toàn mỗi năm</p>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">39.000</div>
@@ -226,7 +75,7 @@
             </ul>
         </section>
         
-        <section id="tam-ly" class="section">
+        <section id="hau-qua" class="section">
             <h2>Hậu quả</h2>
             <h3>Hậu quả về mặt sức khỏe</h3>
             <ul>
@@ -243,14 +92,16 @@
 
             <h3>Hậu quả đến tương lai</h3>
             <ul>
-                <li>Khi yêu sớm, học sinh dễ bị phân tâm, dành nhiều thời gian và cảm xúc cho chuyện tình cảm, bỏ bê học hành.</li>
-                <li>Mang thai sớm buộc nhiều bạn nữ phải nghỉ học, gián đoạn việc học hoặc bỏ học hẳn, làm mất cơ hội vào đại học và phát triển nghề nghiệp sau này. </li>
-                <li>Yêu sớm mà chưa đủ chín chắn về cảm xúc có thể dẫn đến mối quan hệ độc hại, ghen tuông, kiểm soát, thậm chí bạo lực thể chất hoặc tinh thần.</li>
-                <li>Khi có thai, bạn nữ có thể bị ép cưới, hoặc rơi vào tình huống bị lợi dụng và ruồng bỏ, gây tổn thương nặng nề. khó khăn kinh tế, tài chính.</li>
-                <li>Ở tuổi học sinh, chưa có khả năng tự lập tài chính. Việc có thai sớm dẫn đến gánh nặng kinh tế cho gia đình, thậm chí cả hai bên gia đình.</li>
+                <li><strong>Khi yêu sớm:</strong> Học sinh dễ bị phân tâm, dành nhiều thời gian và cảm xúc cho chuyện tình cảm, bỏ bê học hành.</li>
+                <li><strong>Mang thai sớm:</strong> Buộc nhiều bạn nữ phải nghỉ học, gián đoạn việc học hoặc bỏ học hẳn, làm mất cơ hội vào đại học và phát triển nghề nghiệp sau này. </li>
+                <li><strong>Yêu sớm mà chưa đủ chín chắn:</strong> Có thể dẫn đến mối quan hệ độc hại, ghen tuông, kiểm soát, thậm chí bạo lực thể chất hoặc tinh thần.</li>
+                <li><strong>Khi có thai:</strong> Bạn nữ có thể bị ép cưới, hoặc rơi vào tình huống bị lợi dụng và ruồng bỏ, gây tổn thương nặng nề, khó khăn kinh tế, tài chính.</li>
+                <li><strong>Ở tuổi học sinh:</strong> Chưa có khả năng tự lập tài chính. Việc có thai sớm dẫn đến gánh nặng kinh tế cho gia đình, thậm chí cả hai bên gia đình.</li>
+            </ul>
+            <img src="https://ksbtdanang.vn/uploads/chuyen-mon/2022_09/image-20220905151941-1.jpeg" alt="Hậu quả" class="consequence-image">
         </section>
         
-        <section id="phap-ly" class="section">
+        <section id="giai-phap" class="section">
             <h2>Giải pháp</h2>
             
             <h3>Góc độ gia đình</h3>
@@ -271,9 +122,10 @@
                 <li>Tạo môi trường học tập và sinh hoạt lành mạnh</li>
                 <li>Cung cấp dịch vụ y tế thân thiện với vị thành niên</li>
                 <li>Truyền thông và chiến dịch xã hội</li>
+                <img src="https://cdn.nhathuoclongchau.com.vn/unsafe/1280x0/filters:quality(90)/https://cms-prod.s3-sgn09.fptcloud.com/nao_pha_thai_7_bbff8b6ff5.png" alt="Giải pháp" class="consequence-image">
         </section>
         
-        <section id="giai-phap" class="section">
+        <section id="bai-hoc" class="section">
             <h2>Bài học</h2>
             
             <h3>Hiểu và tuân thủ quy tắc “Nói Không - Bỏ đi - Kể lại” để phòng nguy cơ bị xâm hại tình dục.</h3>
@@ -290,7 +142,11 @@
         </section>
     </main>
 
+    
+
     <footer>
         <div class="container">
-            <p><strong>The End</strong></p>
+            <p class="the-end">The End</p>
         </div>
+    </footer>
+</body>
