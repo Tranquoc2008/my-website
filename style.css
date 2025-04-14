@@ -220,3 +220,14 @@ footer {
 #bai-hoc {
 	scroll-margin-top: 40px;
 }
+
+.
+.fb-comments {
+	margin: 20px auto;
+	width: 100%;
+	max-width: 600px;
+	height: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
