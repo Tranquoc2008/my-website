@@ -20,6 +20,9 @@ img {
 	height: auto;
 }
 
+.active {
+	margin: auto;
+}
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -61,12 +64,11 @@ nav {
 	display: flex;
 	flex-wrap: nowrap;
 	max-width: 100%;
-	margin-bottom: auto;
+	margin-bottom: 0;
 	justify-content: space-evenly;
 	align-items: center;
 	overflow-x: auto;
 	padding: 0;
-	width: 100%;
 }
 
 .navbar-list li a {
